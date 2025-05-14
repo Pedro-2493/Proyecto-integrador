@@ -284,6 +284,7 @@ p {
 .footer__contact p {
     color: var(--text-light);
     margin-bottom: var(--spacing-sm);
+
 }
 
 .footer__bottom {

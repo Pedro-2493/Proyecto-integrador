@@ -1,6 +1,3 @@
-
-
-
 .values {
     padding: var(--spacing-xxl) 10;
 }
@@ -14,7 +11,7 @@
 .values__title {
     text-align: center;
     color: white;
-   
+
 }
 
 input[type="text"] {
@@ -22,31 +19,34 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
     font-size: 16px;
-    outline: none; /* Elimina el borde al enfocar */
-  }
+    outline: none;
+    /* Elimina el borde al enfocar */
+}
 
 
 
-  
-  button[type="submit"] {
+
+button[type="submit"] {
     padding: 10px 15px;
-    background-color: #9b59b6;;
+    background-color: #9b59b6;
+    ;
     color: white;
     border: none;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  button[type="submit"]:hover {
-    background-color:  #ff7cbf
-  }
+}
+
+button[type="submit"]:hover {
+    background-color: #ff7cbf
+}
 
 .values__grid {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     gap: var(--spacing-lg);
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .value {
@@ -65,27 +65,27 @@ input[type="text"] {
 .value:hover {
     transform: translateY(-5px);
     background-color: #9b59b6;
-    
+
 }
 
 
 
 
 .value__title {
-    color: var(--color-primary);  
-    margin-bottom: var(--spacing-sm);  
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
 }
 
 .value__text {
     color: var(--text-medium);
     text-align: center;
-   
+
 
 }
+
 button:hover {
     background: #ff7cbf;
-  
 
-    
+
+
 }
-
