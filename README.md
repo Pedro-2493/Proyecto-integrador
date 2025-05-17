@@ -19,48 +19,31 @@ Este proyecto es una plantilla web responsive desarrollada exclusivamente con HT
 /
 ├── assets/
 │   ├── css/
-│   │   ├── styles.css          # Estilos globales y variables
-│   │   ├── index.css           # Estilos específicos para la página principal
-│   │   ├── about.css           # Estilos específicos para la página Acerca de
-│   │   ├── services.css        # Estilos específicos para la página Servicios
-│   │   ├── contact.css         # Estilos específicos para la página Contacto
-│   │   └── components/         # Estilos específicos para componentes
-│   └── images/                 # Carpeta para almacenar imágenes
-├── components/                 # Componentes UI reutilizables
-│   ├── accordion.html          # Componente de acordeón
-│   ├── alerts.html             # Componente de alertas
-│   ├── breadcrumbs.html        # Componente de migas de pan
-│   ├── buttons.html            # Componente de botones
-│   ├── cards.html              # Componente de tarjetas
-│   ├── content.html            # Componente de secciones de contenido
-│   ├── footer.html             # Componente de pie de página
-│   ├── form.html               # Componente de formularios
-│   ├── gallery.html            # Componente de galerías
-│   ├── header.html             # Componente de cabecera
-│   ├── hero.html               # Componente de sección hero
-│   ├── navbar.html             # Componente de menú de navegación
-│   ├── pagination.html         # Componente de paginación
-│   ├── progress-bars.html      # Componente de barras de progreso
-│   ├── tabs.html               # Componente de pestañas
-│   ├── testimonials.html       # Componente de testimonios
-│   └── tooltips.html           # Componente de tooltips
+│   │   ├── styles.cs            # Estilos globales y variables
+│   │   ├── index.css            # Estilos específicos para la página Principal
+│   │   ├── login.css            # Estilos específicos para la página Login
+│   │   ├── registro.css         # Estilos específicos para la página Registro
+│   │   ├── contact.css          # Estilos específicos para la página Contacto
+│   │   └── clasesvirtuales.css  # Estilos específicos para la pagina Clases virtuales
+│   ├── images/                  # Carpeta para almacenar imágenes
+|   |   ├── iconos               # Imagenes de contenedores para la pagina principal
+|   |   ├── Logo                 # Imagen para el header
+|   |   └── logoclasesvirtuales  # Imagen para contenedor de clases virtuales
 ├── pages/
-│   ├── about.html              # Página Acerca de
-│   ├── components-view/        # Visualización de componentes
-│   │   └── index.html          # Página principal de visualización de componentes
-│   ├── services.html           # Página Servicios
-│   └── contact.html            # Página Contacto
+│   ├── login.html              # Página Acerca de
+│   ├── registro.html           # Página Servicios
+│   ├── contact.html            # Página Contacto
+|   └── clasesvirtuales.html    # Página clases virtuales
 ├── index.html                  # Página principal
 └── README.md                   # Este archivo
 ```
 
 ## Páginas Incluidas
 
-- **Inicio (index.html)**: Página principal con secciones de hero, características y llamada a la acción.
-- **Acerca de (about.html)**: Información sobre la empresa, historia, misión, valores y equipo.
-- **Servicios (services.html)**: Descripción de servicios ofrecidos, proceso de trabajo y planes de precios.
-- **Contacto (contact.html)**: Formulario de contacto, información de contacto, mapa y preguntas frecuentes.
-- **Biblioteca de Componentes (pages/components-view/index.html)**: Visualización de todos los componentes UI disponibles con enlaces a sus respectivas páginas de detalle.
+- **Inicio (index.html)**: Página principal con secciones de subsidios, bibloteca virtual y clases virtuales.
+- **Log in  (login.html)**: Formulario de logueo para usuarios ya registrados a nuestro sitio web.
+- **Registro (registro.html)**: Formulario para el registro de nuevos usuarios a nuestro sitio web.
+- **Contacto (contact.html)**: Formulario de contacto, información de contacto, y mapa.
 
 ## Personalización
 
@@ -70,13 +53,17 @@ La paleta de colores se puede personalizar fácilmente modificando las variables
 
 ```css
 :root {
-    --color-primary: #3498db;       /* Azul principal */
-    --color-secondary: #2ecc71;     /* Verde secundario */
-    --color-accent: #e74c3c;        /* Rojo acento */
-    --color-dark: #2c3e50;          /* Azul oscuro */
-    --color-light: #ecf0f1;         /* Gris claro */
-    /* ... más variables ... */
-}
+    /* Colores base sofisticados */
+    --color-primary: #8e44ad;
+    /* Púrpura elegante */
+    --color-secondary: #f39c12;
+    /* Dorado vibrante */
+    --color-accent: #c0392b;
+    /* Rojo vino intenso */
+    --color-dark: #1c1c1c;
+    /* Negro suave */
+    --color-light: #f8f8f8;
+    /* Gris perla */
 ```
 
 ### Tipografía
@@ -107,16 +94,9 @@ El diseño se adapta a diferentes tamaños de pantalla mediante el uso de media 
 - **Tablet**: hasta 768px
 - **Desktop**: más de 768px
 
-## Uso
 
-Para utilizar esta plantilla:
-
-1. Clona o descarga este repositorio
-2. Personaliza los colores, tipografía y contenido según tus necesidades
-3. Reemplaza los textos de placeholder con tu contenido real
-4. Añade tus propias imágenes en la carpeta `assets/images/`
-5. Explora la [Biblioteca de Componentes](pages/components-view/index.html) para ver todos los componentes UI disponibles y cómo implementarlos en tu proyecto
 
 ## Créditos
 
-Desarrollado como parte de un proyecto integrador educativo enfocado en fundamentos de desarrollo web frontend.
+Desarrollado por Pedro zamora, Diego arango, Daniela mejia, luis campis.
+En esta plantilla hicimos los cambios de nombres en las carpetas de pages about por login, y servicios por registro, ademas se agregaro una carpeta con subcarpetas donde se encuentran los logos e imagenes de cada una de nuestras paginas, hicimos un cambio de colores, se agrego  la pagina de clases virtuales, se modificaron los enlaces de la barra de navegacion del header, eliminamos el enlace de la seccion de bienvenida junto con los enlaces rapidos del footer.
