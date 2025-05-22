@@ -99,7 +99,7 @@ El diseño se adapta a diferentes tamaños de pantalla mediante el uso de media 
 
 ## Créditos
 
-Desarrollado por Pedro zamora, Diego arango, Daniela mejia.
+Desarrollado por Pedro zamora, Diego arango, Daniela mejia, Luis campis.
 En esta plantilla hicimos los cambios de nombres en las carpetas de pages about por login, y servicios por registro, ademas se agregaro una carpeta con subcarpetas donde se encuentran los logos e imagenes de cada una de nuestras paginas, hicimos un cambio de colores, se agrego  la pagina de clases virtuales, se modificaron los enlaces de la barra de navegacion del header, eliminamos el enlace de la seccion de bienvenida junto con los enlaces rapidos del footer.
 
 En nuestro sitio web llamado PROGRESO Y GESTIÓN PARA EL DESARROLLO LOCAL (PGDL) quisimos hacer un sitio donde el usuario principal puede acceder a subsidios de estudio, una biblioteca virtual con material interactivo y clases virtuales, y donde los profesores pueden apoyar el estudiante con actualizaciones para un aprendizaje mas completo.
